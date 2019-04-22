@@ -1,0 +1,31 @@
+git log
+git status
+git add .
+git commit -m “”
+git annotate /file/
+.gitignore
+git show HEAD or HEAD~1
+git clean -n will show, git clean -f will delete
+git checkout -- filename will discard the changes not yet staged
+git reset will unstage files previously staged using git add
+git log -3 report.txt shows last 3 commits
+git checkout 2242bd report.txt would replace currenty version with version in specific commit.
+git checkout -- . removes changes in repository
+git branch
+git diff branch-1..branch-2
+git rm removes file and stages removal to commit
+git branch to make a branch
+git checkout -b branch_name to create then switch branch
+git merge source destination merges two branches
+git init project-name makes a new repository's root directory
+git clone URL
+git remote lists names of the current repository's remotes
+git remote -v is a verbose version taht shows URLs
+git remote add remote-name URL
+git remote rm remote-name
+git pull remote branch gets everything in branch in remote repository
+identified by remote
+git push remote-name branch-name pushes changes made locally into remote
+
+
+Ctrl D, Q without control, ctrl O to save, ctrl X to exit, Ctrl K and 
